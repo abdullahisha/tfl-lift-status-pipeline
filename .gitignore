@@ -1,0 +1,9 @@
+# Secrets
+.env
+
+# Data the pipeline regenerates
+data/
+*.duckdb
+*.duckdb.wal
+# MAC Clutter
+.DS_Store
