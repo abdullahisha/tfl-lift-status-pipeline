@@ -1,0 +1,1 @@
+CREATE OR REPLACE TABLE stations AS SELECT unnest(stopPoints).id AS station_id, unnest(stopPoints).commonName AS station_name FROM read_json_auto('data/raw/stations.json');
