@@ -1,0 +1,1 @@
+SELECT s.station_name, COUNT(f.lift_id) AS broken_lifts FROM stations AS s LEFT JOIN lift_faults AS f ON s.station_id = f.station_id GROUP BY s.station_name ORDER BY broken_lifts DESC;
