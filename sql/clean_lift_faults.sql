@@ -1,0 +1,1 @@
+CREATE OR REPLACE TABLE lift_faults AS SELECT stationUniqueId AS station_id, unnest(disruptedLiftUniqueIds) AS lift_id, message FROM read_json_auto('data/raw/lifts_*.json', filename = true) WHERE filename = (SELECT max(filename) FROM read_json_auto('data/raw/lifts_*.json', filename = true));
