@@ -4,7 +4,7 @@ A data pipeline that tracks which London Underground station lifts are out of se
 
 ## About me
 
-As a wheelchair user, I wanted to make journeys more time efficient. Checking whether a station im going to has working lifts often means waiting to for a member of staff to radio ahead and request live information, so i built this to cut out the middleman.
+As a wheelchair user, I wanted to make journeys more time efficient. Checking whether a station im going to has working lifts often means waiting for a member of staff to radio ahead and request live information, so i built this to cut out the middleman.
 
 ## What it does
 
