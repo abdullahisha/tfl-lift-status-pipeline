@@ -4,7 +4,7 @@ A data pipeline that tracks which London Underground station lifts are out of se
 
 ## About me
 
-As a wheelchair user, I wanted to make journeys more time efficient. Checking whether a station im going to has working lifts often means waiting for a member of staff to radio ahead and request live information, so i built this to cut out the middleman.
+As a wheelchair user, I wanted to make journeys more time efficient. Checking whether a station i'm going to has working lifts often means waiting for a member of staff to radio ahead and request live information, so I built this to cut out the middleman.
 
 ## What it does
 
@@ -13,9 +13,9 @@ Every five minutes it fetches live lift disruption data from Transport for Londo
 ## Data source
 
 Transport for London's Unified API, using two endpoints:
--Lift disruptions, which lists lifts currently out of service
+- Lift disruptions, which lists lifts currently out of service
 - Tube stop points, which lists every station
-TFL was the only source used 
+TfL was the only source used 
 
 ## How the pipeline works
 
