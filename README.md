@@ -26,9 +26,15 @@ TFL was the only source used
 
 ## How to run it
 
-Clone the repository, then from the project folder run:
+Requires DuckDB, curl and Bash. Clone the repository, then from the project folder run:
+
+```
+./scripts/extract_stations.sh
+./scripts/extract_lifts.sh
 ./scripts/build_database.sh
-Which rebuilds the whole database from the raw data and prints the report. It requires DuckDB to be installed.
+```
+
+The first two fetch the data, and the third rebuilds the database and prints the report.
 
 ## Known issues
 
