@@ -2,7 +2,7 @@
 .env
 
 # Data the pipeline regenerates
-data/
+data/cron.log
 *.duckdb
 *.duckdb.wal
 # MAC Clutter
