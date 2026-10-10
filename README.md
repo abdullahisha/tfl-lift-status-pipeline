@@ -4,7 +4,11 @@ A data pipeline that tracks which London Underground station lifts are out of se
 
 ## About me
 
-As a wheelchair user, I wanted to make journeys more time efficient. Checking whether a station I'm going to has working lifts often means waiting for a member of staff to radio ahead and request live information, so I built this to cut out the middleman.
+As a wheelchair user, I wanted to make journeys more time efficient. Checking whether a station I'm going to has working lifts often means waiting for a member of staff to radio ahead and request live information, so I built this to cut out the middleman. I came to data through psychology. I went to university expecting to prefer the qualitative side, but during my dissertation I was surprised how much I enjoyed the quantitative work, collecting data and running it through statistics software. The results came back null, but I found the process of gathering and working through the data genuinely interesting, and I realised I enjoy picking up technical skills. That led me to teach myself the basics of DevOps, including Bash and Linux.
+
+At Graceful Care I spoke with clients regularly to gather their feedback, then relayed it to care coordinators based on how their care was performing, and to field care supervisors so they could arrange appointments to improve that performance and shape a new care plan. I kept the client records up to date throughout. I enjoyed being the link between people and the information they needed, and consultancy appeals to me for the same reason, understanding what someone needs and making sure the right information reaches the right place.
+
+The Data School appealed to me as a way to widen my technical skills through structured training and become a more well-rounded data professional
 
 ## What it does
 
@@ -39,8 +43,8 @@ The first two fetch the data, and the third rebuilds the database and prints the
 
 ## Known issues
 
-- The station list currently includes some non-tube stops and a few duplicate station names. I plan to fix this with a station-level filter.
-- The lift fetch runs on my laptop via cron, so data is only collected while the machine is awake. This means there are gaps overnight.
+- The station list currently includes some non-tube stops and duplicate station names, for example Amersham appears several times under slightly different names. I identified this by querying the data directly, and I plan to resolve it with a station-level filter.
+- The lift fetch runs on my laptop via cron, so data is only collected while the machine is awake. This means there are gaps overnight. I plan to move the scheduled job to a cloud service such as GitHub Actions so it runs continuously.
 
 ## Future improvements
 
